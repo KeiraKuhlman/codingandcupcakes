@@ -1,7 +1,7 @@
 html, body {
-	background: #f5c9c9;
+	background:  rgb(0,0,200);
 	font-family: 'Lato', sans-serif;
-	color: #6C6B6B;
+	color: rgb(175,0,255);
 	margin: 0px;
 	padding: 0px;
 	overflow-x: hidden;
@@ -9,7 +9,10 @@ html, body {
 
 h1 {
 	font-weight: 900;
-	text-align: center;
+	font-family: 'Lato', sans-serif;
+	color: rgb(175,0,255);
+	margin-left: 150px;
+	padding: 0px;
 }
 
 h2, h3	{
@@ -41,6 +44,11 @@ p {
 	position: absolute;
 	top: 0px;
 }
+
+.logo-shop {
+	margin-left: 200px
+}
+
 .logo img{
 	width: 100%;
 }
